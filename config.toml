@@ -26,7 +26,7 @@ PygmentsStyle = "monokai"
     # Enable sharing buttons, if you like
     enableSharingButtons = true
     
-    # Dark mode toggle
+    # Dark mode toggle.
     enableThemeToggle = true
 
     # Metadata mostly used in document's head
@@ -103,7 +103,7 @@ PygmentsStyle = "monokai"
 
 [[params.social]]
     name       = "email"
-    url        = "mailto:nobody@example.com"
+    url        = "mailto:a8h1nay@gmail.com"
     weight     = 10
 
 [params.footer]
