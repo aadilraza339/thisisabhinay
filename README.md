@@ -1,4 +1,4 @@
-![](./public/images/Hi%40neutral.svg)
+![](https://www.thisisabhinay.com/images/Hi%40neutral.svg)
 
 ### Hi there 👋, I'm Abhinay 
 
