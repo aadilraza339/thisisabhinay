@@ -1,3 +1,88 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://thisisabhinay.com/"
+languageCode = "en-us"
+title = "Abhinay's site"
+theme= "hello-friend-ng"
+paginate = 10
+
+
+[params]
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+
+    # Subtitle for home
+    homeSubtitle = "Frontend Engineer / Designer. Trying to reinvent art and storytelling in digital space."
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Enable sharing buttons, if you like
+    enableSharingButtons = true
+
+    # Metadata mostly used in document's head
+    description = "Personal website and portfolio of Abhinay Thakur"
+    keywords = "homepage, personal website, blog, portfolio, frontend, design, contact me"
+    images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+[languages]
+    [languages.en]
+        title = "Hello 👋, I'm Abhinay"
+        # subtitle = "A simple theme for Hugo"
+        # keywords = "personal website, blog, portfolio, frontend, design, contact me"
+        copyright = "Copyright by Abhinay Thakur. 2022"
+        readOtherPosts = "Read other posts"
+
+        [languages.en.params.logo]
+            logoText = "$ cd /home/"
+            logoHomeLink = "/"
+        # or
+        #
+        # path = "/img/your-example-logo.svg"
+        # alt = "Your example logo alt text"
+
+# And you can even create generic menu
+[[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+    weight     = 10
+
+[[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = 40
+
+[[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+    weight     = 30
+
+[[menu.main]]
+    identifier = "work"
+    name       = "Work"
+    url        = "/work"
+    weight     = 20
+
+[[params.social]]
+    name       = "twitter"
+    url        = "https://www.twitter.com/thisisabhinay"
+    weight     = 10
+
+[[params.social]]
+    name       = "linkedin"
+    url        = "https://www.linkedin.com/in/thisisabhinay"
+    weight     = 10
+
+[[params.social]]
+    name       = "polywork"
+    url        = "https://www.polywork.com/thisisabhinay"
+    weight     = 10
